@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES5",
+      "module": "commonjs",
+      "strict": true,
+      "outDir": "./src/generated",
+      "rootDir": "./src/schema",
+      "sourceMap": true,
+      "jsx": "react",
+	    "esModuleInterop": true,
+    },
+    "compileOnSave": false,
+    "include": [
+        "./src/schema/*.ts"
+    ]
+}
